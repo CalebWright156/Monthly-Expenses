@@ -10,8 +10,9 @@ export const Balance = () =>{
      
 
     return(
-        <div>
-            <h4>Your Balance</h4>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: 
+        '#424243', padding: '10px 10px'}}>
+            <h4>Total Balance</h4>
             <h1 style={total < 0 ? {color: 'red'}: {color: '#f7f7f7'}}>{total}</h1>
         </div>
     )
